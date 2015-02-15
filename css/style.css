@@ -28,7 +28,11 @@ a:hover {
     color: #511433; 
 }
 
-/* News */
+.right {
+    float: right; 
+}
+
+/*news*/
 .news-slider {
   /* Style the actual content */
 }
@@ -81,3 +85,29 @@ a:hover {
   display: block;
   color: #222;
 }
+
+/*credits*/
+.credits {
+    padding-bottom: 20px; 
+}
+
+.credits-title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #000000; 
+}
+
+.credits a {
+    color: #6B2F46;
+    font-family: 'Noto Serif', serif;
+    font-size: .9em; 
+}
+
+.credits a:hover {
+    text-decoration: none;
+    color: #511433; 
+}
+
+
+
+
