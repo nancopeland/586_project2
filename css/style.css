@@ -39,7 +39,6 @@ a:hover {
 }
 
 .slide-one, .slide-three{
-    background-color: rgba(255, 255, 255, 0.9);
     padding: 1em;
     width: 100%;
     height: 20%;
@@ -47,7 +46,6 @@ a:hover {
 }
 
 .slide-two {
-    background-color: rgba(255, 255, 255, 0.9);
     padding: 1em;
     width: 30%;
     height: 100%;
@@ -120,7 +118,7 @@ text-content {
   color: #000000;
 }
 
-/*HOVER*/
+/*HOVER SLIDE 2*/
 .popbox {
     display: none;
     position: absolute;
@@ -146,55 +144,158 @@ text-content {
     position: absolute;
     background: gray;
     opacity: 0.5; 
-    width: 8em;
-    height: 10em;
+    width: 12%;
+    height: 25%;
 }
 
 .box-one {
     top: 8%;
-    left: 35%;
+    left: 46%;
 }
 
 .box-two {   
     top: 8%;
-    left: 53%;
+    left: 64%;
 }
 
 .box-three {
     top: 8%;
-    left: 72%; 
+    left: 82%; 
 }
 
 .box-four {
-    top: 38%;
-    left: 35%;
+    top: 37%;
+    left: 46%;
 }
 
 .box-five {   
-    top: 38%;
-    left: 53%;
+    top: 37%;
+    left: 64%;
 }
 
 .box-six {
-    top: 38%;
-    left: 72%; 
+    top: 37%;
+    left: 82%; 
 }
 
 .box-seven {
-    top: 68%;
-    left: 35%;
+    top: 66%;
+    left: 46%;
 }
 
 .box-eight {   
-    top: 68%;
-    left: 53%;
+    top: 66%;
+    left: 64%;
 }
 
 .box-nine {
-    top: 68%;
-    left: 72%; 
+    top: 66%;
+    left: 82%; 
 }
 
+/*BUTTONS SLIDE 3*/
+.button-west, .button-east, .button-indian {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    width: 15em;
+    color: #000000;
+    margin: 20px;
+}
+
+.button-west {
+    top: 60%;
+    left: 10%; 
+}
+
+.button-east {
+    top: 35%;
+    left: 29%; 
+}
+
+.button-indian {
+    top: 65%;
+    left: 61%; 
+}
+
+.button-west h2 {
+    color: #6B2F46; 
+    text-transform: uppercase;
+    font-size: 1em; 
+    display: block;
+}
+
+.button-east h2 {
+    color: #6B2F46; 
+    text-transform: uppercase;
+    font-size: 1em; 
+    display: block;
+}
+
+.button-indian h2 {
+    color: #6B2F46; 
+    text-transform: uppercase;
+    font-size: 1em; 
+    display: block;
+}
+
+.map-button {
+    position: absolute; 
+    background-color: #6B2F46;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px; 
+}
+
+.button-argentina {
+    top: 73%;
+    left: 30%; 
+}
+
+.button-cali {
+    top: 39%;
+    left: 16%; 
+}
+
+.button-chile {
+    top: 77%;
+    left: 28%;
+}
+
+.button-france {
+    top: 36%;
+    left: 48%; 
+}
+
+.button-portugal {
+    top: 40%;
+    left: 45%;
+}
+
+.button-spain {
+    top: 38%;
+    left: 46%;
+}
+
+.button-germany {
+    top: 34%;
+    left: 49%; 
+}
+
+.button-italy {
+    top: 39%;
+    left: 51%;
+}
+
+.button-sa {
+    top: 77%;
+    left: 54%; 
+}
+
+.button-auz {
+    top: 79%;
+    left: 85%;
+}
 
 /*CREDITS*/
 .credits {
