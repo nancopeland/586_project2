@@ -38,7 +38,7 @@ a:hover {
     margin-top: 20px; 
 }
 
-.slide-one, .slide-three{
+.slide-one, .slide-three, .slide-four {
     padding: 1em;
     width: 100%;
     height: 20%;
@@ -297,9 +297,62 @@ text-content {
     left: 85%;
 }
 
+/*SLIDE 4 HOVER*/
+.bottle-box {
+    position: absolute;
+    background: grey;
+    opacity: 0.5;
+    width: 10%;
+    height: 22%; 
+}
+
+.button-glass {
+    top: 21%;
+    left: 40%;
+}
+
+.button-grapes{
+    top: 49%;
+    left: 40%;
+}
+
+.button-calories {
+    top: 73%;
+    left: 40%;
+}
+
+.button-glass-hover, .button-grapes-hover, .button-calories-hover {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    width: 20em;
+    height: 10em; 
+    color: #000000;
+    margin: 20px;
+}
+
+.button-glass-hover {
+    top: 21%;
+    left: 55%;
+}
+
+.button-grapes-hover {
+    top: 49%;
+    left: 55%;
+}
+
+.button-calories-hover {
+    top: 73%;
+    left: 55%;
+}
+
+.button-glass-hover p {
+    display: block; 
+}
+
 /*CREDITS*/
 .credits {
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .credits-title {
