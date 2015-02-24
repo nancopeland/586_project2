@@ -47,7 +47,7 @@ a:hover {
 
 p {
     font-size: .9em;
-    padding: none;
+    padding: 0;
 }
 
 
@@ -71,11 +71,11 @@ p {
   right: 0;
 }
 
-text-content h2 {
+.text-content h2 {
     font-size: 1.5em; 
 }
 
-text-content {
+.text-content {
     font-size: .9em; 
 }
 
