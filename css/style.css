@@ -1,9 +1,8 @@
 /*style for sliders*/
 
 body {
-    font-size: 16px;
+    font-size: 1.5vw;
     font-family: 'Noto Serif', serif;
-    font-size: 16px;
     font-weight: 400; 
 }
 
@@ -33,7 +32,8 @@ a:hover {
 }
 
 p {
-    font-size: .9em; 
+    font-size: .9em;
+    padding: none; 
 }
 
 
@@ -51,21 +51,24 @@ p {
     max-height: 700px; 
 }
 
+.slide-terms {
+    padding: 1em;
+    width: 65%;
+    height: 100%;
+    max-height: 700px; 
+}
+
 .slide-two {
     padding: 1em;
     width: 30%;
     height: 100%;
     max-height: 700px;
-}
-
-.news-slider {
-  /* Style the actual content */
+    left:0; 
 }
 
 .news-slider .text-content {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
 }
 
@@ -148,10 +151,20 @@ text-content {
     padding: 5px 10px;
 }
 
+.popbox h6 {
+    color: #000000;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em; 
+    display: block;
+    width: 100%;
+    margin: -10px 0px 0px -10px;
+    padding: 8px 10px 5px 10px;
+}
+
 .box {
     position: absolute;
-    background: gray;
-    opacity: 0.5; 
+    background: transparent;
     width: 12%;
     height: 25%;
 }
@@ -206,7 +219,7 @@ text-content {
     display: none;
     position: absolute;
     z-index: 99999;
-    width: 15em;
+    width: 9em;
     color: #000000;
     margin: 20px;
 }
@@ -308,8 +321,7 @@ text-content {
 /*SLIDE 4 HOVER*/
 .bottle-box {
     position: absolute;
-    background: grey;
-    opacity: 0.5;
+    background: transparent; 
     width: 10%;
     height: 22%; 
 }
@@ -340,17 +352,17 @@ text-content {
 }
 
 .button-glass-hover {
-    top: 21%;
+    top: 19%;
     left: 55%;
 }
 
 .button-grapes-hover {
-    top: 49%;
+    top: 47%;
     left: 55%;
 }
 
 .button-calories-hover {
-    top: 73%;
+    top: 70%;
     left: 55%;
 }
 
@@ -394,12 +406,9 @@ text-content {
 .how_you_did {
     text-align: center;
     padding: 1em;
-    background-color: rgb(254, 231, 88);
-    font-weight: bold;
+    background-color: #CE97BB;
     font-size: 1.25em;
-    -webkit-box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.65);
-    -moz-box-shadow:    0px 7px 5px rgba(50, 50, 50, 0.65);
-    box-shadow:         0px 7px 5px rgba(50, 50, 50, 0.65);
+    font-family: 'Karla', sans-serif; 
 }
 
 
