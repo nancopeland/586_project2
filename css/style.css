@@ -18,6 +18,14 @@ h3 {
     font-size: 1.5em; 
 }
 
+h6 {
+    color: #000000;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0px; 
+}
+
 li {
     display: inline; 
 }
@@ -39,7 +47,7 @@ a:hover {
 
 p {
     font-size: .9em;
-    padding: none; 
+    padding: none;
 }
 
 
@@ -54,13 +62,6 @@ p {
     width: 100%;
     height: 20%;
     text-align: center;
-    max-height: 700px; 
-}
-
-.slide-terms {
-    padding: 1em;
-    width: 65%;
-    height: 100%;
     max-height: 700px; 
 }
 
@@ -133,6 +134,24 @@ text-content {
   text-decoration: none;
   display: block;
   color: #000000;
+}
+
+/*TERMS SLIDE*/
+.slide-terms {
+    padding: 1em;
+    width: 65%;
+    height: 100%;
+    max-height: 700px; 
+}
+
+.slide-terms h6 {
+    color: #6B2F46;
+    padding-top: 5px; 
+}
+
+.slide-terms p{
+    margin: 7px 0px 7px 0px !important;
+    font-size: .8em; 
 }
 
 /*HOVER SLIDE 2*/
@@ -422,8 +441,6 @@ text-content {
 }
 
 /*scroll*/
-
-/** initial setup **/
 .nano {
   position : relative;
   width    : 100%;
@@ -496,9 +513,6 @@ text-content {
 .nano .nano-slider {
     background: #FFFFFF;
 }
-
-
-
 
 /*CREDITS*/
 .credits {
