@@ -6,8 +6,20 @@ $(document).ready(function(){
   prepareSlider();
   
   prepareHover();
+  
+  
 
 });
+
+
+function prepareScroll(){
+  
+  $(".nano").nanoScroller({
+    scroll: 'top',
+    alwaysVisible: true 
+  });
+  
+}
 
 
 function prepareSlider(){
@@ -51,8 +63,14 @@ function prepareHover(){
     var target = '#' + ($(this).attr('data-popbox'));
     $(target).hide();
   });
- 
   
- 
+  prepareQuiz();
+}
+
+function prepareQuiz() {
+  
+  var quiz = jQuery('#quiz').quiz('0Ajv0EBcoMHp4dGs0SW1PZktVbEJIQnBEblhuNy0ycXc'); //your published spreadsheet key or URL goes here
+  console.log("quiz should be ready");
+  prepareScroll();
 }
 
