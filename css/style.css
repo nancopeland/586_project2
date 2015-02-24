@@ -57,20 +57,12 @@ p {
     max-height: 700px; 
 }
 
-.slide-one, .slide-three, .slide-four {
+.slide-one {
     padding: 1em;
     width: 100%;
     height: 20%;
     text-align: center;
     max-height: 700px; 
-}
-
-.slide-two {
-    padding: 1em;
-    width: 30%;
-    height: 100%;
-    max-height: 700px;
-    left:0; 
 }
 
 .news-slider .text-content {
@@ -136,30 +128,42 @@ text-content {
   color: #000000;
 }
 
-/*TERMS SLIDE*/
-.slide-terms {
+/*SLIDE 2*/
+.slide-two {
     padding: 1em;
     width: 65%;
     height: 100%;
     max-height: 700px; 
 }
 
-.slide-terms h6 {
+.slide-two h2 {
+    padding-bottom: 10px; 
+}
+
+.slide-two h6 {
     color: #6B2F46;
     padding-top: 5px; 
 }
 
-.slide-terms p{
+.slide-two p{
     margin: 7px 0px 7px 0px !important;
     font-size: .8em; 
 }
 
-/*HOVER SLIDE 2*/
+/*SLIDE 3*/
+.slide-three {
+    padding: 1em;
+    width: 30%;
+    height: 100%;
+    max-height: 700px;
+    left:0; 
+}
+
 .popbox {
     display: none;
     position: absolute;
-    top: 55%;
-    left: 0%; 
+    top: 45%;
+    left: 10%; 
     z-index: 99999;
     width: 15em;
     color: #000000;
@@ -239,7 +243,15 @@ text-content {
     left: 82%; 
 }
 
-/*BUTTONS SLIDE 3*/
+/*SLIDE 4*/
+.slide-four {
+    padding: 1em;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    max-height: 700px; 
+}
+
 .button-west, .button-east, .button-indian {
     display: none;
     position: absolute;
@@ -343,7 +355,15 @@ text-content {
     left: 85%;
 }
 
-/*SLIDE 4 HOVER*/
+/*SLIDE 5 HOVER*/
+.slide-five {
+    padding: 1em;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    max-height: 700px; 
+}
+
 .bottle-box {
     position: absolute;
     background: transparent; 
@@ -395,9 +415,14 @@ text-content {
     display: block; 
 }
 
-/*QUIZ*/
+/*QUIZ SLIDE 6*/
+.container-fluid {
+    width: 100%;
+    height: 100%; 
+    margin-left: 0px;
+}
+
 .slide-quiz{
-    max-height: 700px; 
 }
 
 .possible_answer  {
@@ -408,7 +433,6 @@ text-content {
 .possible_answer:hover {
     background: #cb9d9f;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .correct-answer, .wrong-answer {
@@ -435,18 +459,28 @@ text-content {
 .how_you_did {
     text-align: center;
     padding: 1em;
-    background-color: #CE97BB;
+    background-color: #83b892;
     font-size: 1.25em;
     font-family: 'Karla', sans-serif; 
 }
 
 /*scroll*/
 .nano {
-  position : relative;
-  width    : 100%;
-  height   : 100%;
-  overflow : hidden;
+    position : relative;
+    overflow : hidden;
+    background: #FFFFFF;
+    width: 800px;
+    height: 500px;
 }
+
+.nano-responsive {
+    position : relative;
+    overflow : hidden;
+    background: #FFFFFF;
+    width: 500px;
+    height: 300px;
+}
+
 .nano > .nano-content {
   position      : absolute;
   overflow      : scroll;
@@ -456,15 +490,19 @@ text-content {
   bottom        : 0;
   left          : 0;
 }
+
 .nano > .nano-content:focus {
   outline: thin dotted;
 }
+
 .nano > .nano-content::-webkit-scrollbar {
   display: none;
 }
+
 .has-scrollbar > .nano-content::-webkit-scrollbar {
   display: block;
 }
+
 .nano > .nano-pane {
   background : rgba(0,0,0,.25);
   position   : absolute;
@@ -482,6 +520,7 @@ text-content {
   -webkit-border-radius : 5px;
   border-radius         : 5px;
 }
+
 .nano > .nano-pane > .nano-slider {
   background: #444;
   background: rgba(0,0,0,.5);
@@ -491,15 +530,10 @@ text-content {
   -webkit-border-radius : 3px;
   border-radius         : 3px;
 }
-.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
-  visibility : visible\9; /* Target only IE7 and IE8 with this hack */
-  opacity    : 0.99;
-}
 
-.nano {
-    background: #FFFFFF;
-    width: 1200px;
-    height: 700px;
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+  visibility : visible\9; 
+  opacity    : 0.99;
 }
 
 .nano .nano-content {

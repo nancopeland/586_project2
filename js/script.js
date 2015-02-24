@@ -6,8 +6,6 @@ $(document).ready(function(){
   prepareSlider();
   
   prepareHover();
-  
-  
 
 });
 
@@ -45,9 +43,8 @@ function prepareSlider(){
       // slideshow
       autoDirection: 'prev'
     });
-  
-  
 }
+
 
 function prepareHover(){
   var moveLeft = 0;
@@ -68,7 +65,6 @@ function prepareHover(){
 }
 
 function prepareQuiz() {
-  
   var quiz = jQuery('#quiz').quiz('0Ajv0EBcoMHp4dGs0SW1PZktVbEJIQnBEblhuNy0ycXc'); //your published spreadsheet key or URL goes here
   console.log("quiz should be ready");
   prepareScroll();
